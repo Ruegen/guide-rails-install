@@ -1,8 +1,8 @@
-#Install Ruby on Rails
+# Install Ruby on Rails
 
-[macOS install](#mac-os)
-[Ubuntu/Linux install](#ubuntu)
-[Windows install](#windows)
+- [macOS install](#mac-os)
+- [Ubuntu/Linux install](#ubuntu)
+- [Windows install](#windows)
 
 ![macOS logo](/assets/images/macos.png)
 <a id="mac-os"></a>
@@ -41,7 +41,7 @@
 
 
 <a id="ubuntu"></a>
-![ubuntu logo](/assets/images/unbuntu.png)
+![ubuntu logo](/assets/images/ubuntu.png)
 ### Ubuntu Install
 
 ![windows logo](/assets/images/windows.png)
