@@ -4,6 +4,9 @@
 - [Ubuntu/Linux install](#ubuntu)
 - [Windows install](#windows)
 
+---
+
+
 <a id="mac-os"></a>
 ![macOS logo](/assets/images/macos.png)
 ### macOS install
@@ -38,6 +41,8 @@
   gem install rails --version 5.1.1 --no-ri --no-rdoc && rbenv rehash
   ```
   Type ```rails -v``` to test your version
+
+---
 
 
 <a id="ubuntu"></a>
@@ -92,6 +97,9 @@
   gem install rails --version 5.1.1 --no-ri --no-rdoc && rbenv rehash
   ```
   Type ```rails -v``` to test your version
+
+---
+
 
 
 <a id="windows"></a>
