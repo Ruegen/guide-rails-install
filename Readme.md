@@ -1,4 +1,5 @@
 # Install Ruby on Rails
+[Rails logo](/assets/images/rails.png)
 
 - [macOS install](#mac-os)
 - [Ubuntu/Linux install](#ubuntu)
