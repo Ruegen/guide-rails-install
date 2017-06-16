@@ -60,7 +60,7 @@
   ```
 3. Get some required dependancies
   ```
-  sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev  
+  sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev nodejs sqlite3 libsqlite3-dev  
   ```
 4. Using git - download *rbenv* git repo to a hidden directory
   ```
