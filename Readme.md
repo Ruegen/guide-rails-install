@@ -15,29 +15,33 @@
 #### Install rbenv (ruby environment)
 [rbenv](https://github.com/rbenv/rbenv) is a ruby version manager similar to [rvm](https://rvm.io/) however rbenv works on both Mac & Linux. If you have to learn something - it's nicer to learn something that covers two environments rather than one in case you ever need to use it in a mac/linux environment.
 
-1. Install [brew](https://brew.sh/) if you haven't already
-2. Install rbenv (Terminal app)
+1. Install developer libraries from Apple
+  ```
+  xcode-select --install
+  ```
+2. Install [brew](https://brew.sh/)
+3. Install rbenv (Terminal app)
   ```
   brew install rbenv
   ```
-3. Setup rbenv
+4. Setup rbenv
   ```
   rbenv init
   ```
-4. Add rbenv to your *~/.bash_profile*
+5. Add rbenv to your *~/.bash_profile*
   ```
   echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
   echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
   ```
-5. Reopen the terminal and install ruby
+6. Reopen the terminal and install ruby
   ```
   rbenv install 2.4.1
   ```
-6. Setup the version of Ruby you wish to use
+7. Setup the version of Ruby you wish to use
   ```
   rbenv local 2.4.1
   ```
-7. Install Ruby On Rails
+8. Install Ruby On Rails
   ```
   gem install rails --version 5.1.1 --no-ri --no-rdoc && rbenv rehash
   ```
