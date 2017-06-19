@@ -126,12 +126,13 @@
 ![windows logo](/assets/images/windows.png)
 
 1. Download and install [Ruby 2.4.1-1 (x64)](https://rubyinstaller.org/downloads/)
-2. Once Ruby has been set to *local* you should be able to verify which version you have, open **Powershell** or **cmd** and type:
+2. You will be given options during the install [1,2,3]. One at a time use all 3 options.
+3. Once Ruby has been installed you should be able to verify which version you have, open **Powershell** or **cmd** and type:
   ```
   ruby -v
   ```
-2. Install rails using Powershell/CMD
+4. Install rails using Powershell/CMD
   ```
   gem install rails
   ```
-3. Type ```rails -v``` to test your version
+5. Type ```rails -v``` to test your version
