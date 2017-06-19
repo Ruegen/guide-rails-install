@@ -44,7 +44,11 @@
   ```
   rbenv local 2.4.1
   ```
-8. Install Ruby On Rails
+8. Once Ruby has been set to *local* you should be able to verify which version you have
+  ```
+  ruby -v
+  ```
+9. Install Ruby On Rails
   ```
   gem install rails --version 5.1.1 --no-ri --no-rdoc && rbenv rehash
   ```
@@ -103,7 +107,11 @@
   ```
   rbenv local 2.4.1
   ```
-11. Install Ruby On Rails
+11. Once Ruby has been set to *local* you should be able to verify which version you have
+  ```
+  ruby -v
+  ```  
+12. Install Ruby On Rails
   ```
   gem install rails --version 5.1.1 --no-ri --no-rdoc && rbenv rehash
   ```
@@ -118,7 +126,11 @@
 ![windows logo](/assets/images/windows.png)
 
 1. Download and install [Ruby 2.4.1-1 (x64)](https://rubyinstaller.org/downloads/)
-2. Install rails
+2. Once Ruby has been set to *local* you should be able to verify which version you have, open **Powershell** or **cmd** and type:
+  ```
+  ruby -v
+  ```
+2. Install rails using Powershell/CMD
   ```
   gem install rails
   ```
