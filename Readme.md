@@ -1,16 +1,16 @@
 # Install Ruby on Rails
 ![Rails logo](/assets/images/rails.png)
 
-- [macOS install](#mac-os)
-- [Ubuntu/Linux install](#ubuntu)
-- [Windows install](#windows)
+- [macOS install](#macos-install)
+- [Ubuntu/Linux install](#ubuntu-install)
+- [Windows install](#windows-install)
 
 ---
 
 
-<a id="mac-os"></a>
-![macOS logo](/assets/images/macos.png)
+
 ### macOS install
+![macOS logo](/assets/images/macos.png)
 
 #### Install rbenv (ruby environment)
 [rbenv](https://github.com/rbenv/rbenv) is a ruby version manager similar to [rvm](https://rvm.io/) however rbenv works on both Mac & Linux. If you have to learn something - it's nicer to learn something that covers two environments rather than one in case you ever need to use it in a mac/linux environment.
@@ -29,8 +29,11 @@
   rbenv init
   ```
 5. Add rbenv to your *~/.bash_profile*
+  NOTE: these will not give you back any feedback to tell you they are complete.
   ```
   echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+  ```
+  ```
   echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
   ```
 6. Reopen the terminal and install ruby
@@ -50,9 +53,9 @@
 ---
 
 
-<a id="ubuntu"></a>
-![ubuntu logo](/assets/images/ubuntu.png)
+
 ### Ubuntu Install
+![ubuntu logo](/assets/images/ubuntu.png)
 
 #### Install rbenv (ruby environment)
 [rbenv](https://github.com/rbenv/rbenv) is a ruby version manager similar to [rvm](https://rvm.io/) however rbenv works on both Mac & Linux. If you have to learn something - it's nicer to learn something that covers two environments rather than one in case you ever need to use it in a mac/linux environment.
@@ -71,8 +74,11 @@
   git clone https://github.com/rbenv/rbenv.git ~/.rbenv
   ```
 5. Add terminal commands for rbenv
+  NOTE: these will not give you back any feedback to tell you they are complete.
   ```
   echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+  ```
+  ```
   echo 'eval "$(rbenv init -)"' >> ~/.bashrc
   ```
 6. Run command for rbenv
@@ -107,9 +113,9 @@
 
 
 
-<a id="windows"></a>
-![windows logo](/assets/images/windows.png)
+
 ### Windows Install
+![windows logo](/assets/images/windows.png)
 
 1. Download and install [Ruby 2.4.1-1 (x64)](https://rubyinstaller.org/downloads/)
 2. Install rails
